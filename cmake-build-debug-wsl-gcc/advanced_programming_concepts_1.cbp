@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="advanced_programming_concepts_1"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\assignment\;CMake Files\assignment\src\;CMake Files\assignment\clib\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="assignment">
+				<Option output="/mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc/assignment/assignment" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc/assignment"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/marij/CLionProjects/APCWeek2/assignment/include"/>
+					<Add directory="/mnt/c/Users/marij/CLionProjects/APCWeek2/assignment/clib"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc/assignment/Makefile&quot;  VERBOSE=1 assignment"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc/assignment/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc/assignment/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc/assignment/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="assignment/fast">
+				<Option output="/mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc/assignment/assignment" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc/assignment"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/mnt/c/Users/marij/CLionProjects/APCWeek2/assignment/include"/>
+					<Add directory="/mnt/c/Users/marij/CLionProjects/APCWeek2/assignment/clib"/>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc/assignment/Makefile&quot;  VERBOSE=1 assignment/fast"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc/assignment/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc/assignment/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc/assignment/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="clogger">
+				<Option output="/mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc/assignment/clib/libclogger.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc/assignment/clib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc/assignment/clib/Makefile&quot;  VERBOSE=1 clogger"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc/assignment/clib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc/assignment/clib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc/assignment/clib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="clogger/fast">
+				<Option output="/mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc/assignment/clib/libclogger.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc/assignment/clib"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/c++/12"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/12"/>
+					<Add directory="/usr/include/c++/12/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/12/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j20 -f &quot;/mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc/assignment/clib/Makefile&quot;  VERBOSE=1 clogger/fast"/>
+					<CompileFile command="/usr/bin/gmake -j20 -f &quot;/mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc/assignment/clib/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j20 -f &quot;/mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc/assignment/clib/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j20 -f &quot;/mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc/assignment/clib/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/mnt/c/Users/marij/CLionProjects/APCWeek2/assignment/clib/clogger_adapter.cpp">
+			<Option target="clogger"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/marij/CLionProjects/APCWeek2/assignment/clib/clogger_adapter.h">
+			<Option target="clogger"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/marij/CLionProjects/APCWeek2/assignment/clib/file_writer.cpp">
+			<Option target="clogger"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/marij/CLionProjects/APCWeek2/assignment/clib/file_writer.h">
+			<Option target="clogger"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/marij/CLionProjects/APCWeek2/assignment/clib/logger.c">
+			<Option target="clogger"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/marij/CLionProjects/APCWeek2/assignment/clib/logger.h">
+			<Option target="clogger"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/marij/CLionProjects/APCWeek2/assignment/main.cpp">
+			<Option target="assignment"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/marij/CLionProjects/APCWeek2/assignment/program.cpp">
+			<Option target="assignment"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/marij/CLionProjects/APCWeek2/assignment/src/console_writer.cpp">
+			<Option target="assignment"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/marij/CLionProjects/APCWeek2/assignment/src/decorators/timestamp_decorator.cpp">
+			<Option target="assignment"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/marij/CLionProjects/APCWeek2/assignment/src/file_writer_adapter.cpp">
+			<Option target="assignment"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/marij/CLionProjects/APCWeek2/assignment/src/logger.cpp">
+			<Option target="assignment"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/marij/CLionProjects/APCWeek2/assignment/src/multi_writer.cpp">
+			<Option target="assignment"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/marij/CLionProjects/APCWeek2/assignment/src/stream_writer.cpp">
+			<Option target="assignment"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/marij/CLionProjects/APCWeek2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/marij/CLionProjects/APCWeek2/assignment/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\assignment\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/marij/CLionProjects/APCWeek2/assignment/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\assignment\src\"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/marij/CLionProjects/APCWeek2/assignment/clib/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\assignment\clib\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

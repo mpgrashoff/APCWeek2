@@ -1,0 +1,11 @@
+C:\Windows\system32\wsl.exe --distribution Ubuntu-22.04 --exec /bin/bash -c "export CMAKE_COLOR_DIAGNOSTICS=ON && export CLION_IDE=TRUE && export JETBRAINS_IDE=TRUE && cd /mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc && /usr/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G 'CodeBlocks - Unix Makefiles' -S /mnt/c/Users/marij/CLionProjects/APCWeek2 -B /mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc"
+USE_ASAN set to ON. If you get errors about libasan, set USE_ASAN to OFF in the main CMakeLists.txt
+libasan found @/usr/lib/gcc/x86_64-linux-gnu/12/libasan.so
+To disable the address sanitizer set USE_ASAN to OFF.
+
+CXX compiler is GNU-like
+Configuring target: assignment
+Configuring target: assignment
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc

@@ -1,0 +1,10 @@
+/mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc/CMakeFiles/edit_cache.dir
+/mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc/assignment/CMakeFiles/assignment.dir
+/mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc/assignment/CMakeFiles/edit_cache.dir
+/mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc/assignment/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc/assignment/src/CMakeFiles/edit_cache.dir
+/mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc/assignment/src/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc/assignment/clib/CMakeFiles/clogger.dir
+/mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc/assignment/clib/CMakeFiles/edit_cache.dir
+/mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc/assignment/clib/CMakeFiles/rebuild_cache.dir
