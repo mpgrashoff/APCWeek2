@@ -1,7 +1,7 @@
 list(APPEND TARGETS assignment)
 set(TARGETS ${TARGETS} PARENT_SCOPE)
 
-add_executable(assignment main.cpp)
+add_executable(assignment main.cpp include/decorators/logger_decorator.h src/decorators/logger_decorator.cpp)
 target_include_directories(assignment PRIVATE include)
 
 add_subdirectory(src)

@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/assignment.dir/include/decorators/logger_decorator.cpp.o"
+  "CMakeFiles/assignment.dir/include/decorators/logger_decorator.cpp.o.d"
   "CMakeFiles/assignment.dir/main.cpp.o"
   "CMakeFiles/assignment.dir/main.cpp.o.d"
   "CMakeFiles/assignment.dir/program.cpp.o"

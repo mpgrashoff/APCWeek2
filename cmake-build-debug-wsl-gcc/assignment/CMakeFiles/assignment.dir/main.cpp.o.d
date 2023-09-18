@@ -225,6 +225,9 @@ assignment/CMakeFiles/assignment.dir/main.cpp.o: \
  /mnt/c/Users/marij/CLionProjects/APCWeek2/assignment/include/ilogger.h \
  /mnt/c/Users/marij/CLionProjects/APCWeek2/assignment/clib/logger.h \
  /usr/lib/gcc/x86_64-linux-gnu/12/include/stdbool.h \
+ /mnt/c/Users/marij/CLionProjects/APCWeek2/assignment/clib/clogger_adapter.h \
+ /mnt/c/Users/marij/CLionProjects/APCWeek2/assignment/clib/../include/ilogger.h \
+ /mnt/c/Users/marij/CLionProjects/APCWeek2/assignment/clib/../clib/logger.h \
  /usr/include/c++/12/thread /usr/include/c++/12/stop_token \
  /usr/include/c++/12/atomic /usr/include/c++/12/bits/std_thread.h \
  /usr/include/c++/12/semaphore /usr/include/c++/12/bits/semaphore_base.h \

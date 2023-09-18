@@ -8,6 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/mnt/c/Users/marij/CLionProjects/APCWeek2/assignment/include/decorators/logger_decorator.cpp" "assignment/CMakeFiles/assignment.dir/include/decorators/logger_decorator.cpp.o" "gcc" "assignment/CMakeFiles/assignment.dir/include/decorators/logger_decorator.cpp.o.d"
   "/mnt/c/Users/marij/CLionProjects/APCWeek2/assignment/main.cpp" "assignment/CMakeFiles/assignment.dir/main.cpp.o" "gcc" "assignment/CMakeFiles/assignment.dir/main.cpp.o.d"
   "/mnt/c/Users/marij/CLionProjects/APCWeek2/assignment/program.cpp" "assignment/CMakeFiles/assignment.dir/program.cpp.o" "gcc" "assignment/CMakeFiles/assignment.dir/program.cpp.o.d"
   "/mnt/c/Users/marij/CLionProjects/APCWeek2/assignment/src/console_writer.cpp" "assignment/CMakeFiles/assignment.dir/src/console_writer.cpp.o" "gcc" "assignment/CMakeFiles/assignment.dir/src/console_writer.cpp.o.d"

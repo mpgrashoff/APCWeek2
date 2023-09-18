@@ -11,6 +11,7 @@
 #include "decorators/timestamp_decorator.h"
 
 #include "clib/logger.h"
+#include "clogger_adapter.h"
 #include <iostream>
 #include <memory>
 #include <thread>
@@ -38,6 +39,11 @@ void demo_rolling(){
 }
 
 int main(){
+//    auto log = std::make_unique<lib::clogger_adapter>(5);
+//    auto decorated = std::make_unique<lib::decorators::timestamp_decorator>(std::move(log));
+//    program prog{ std::move(decorated) };
+//    prog.run();
+
 
     auto fwa = std::make_unique<writers::file_writer_adapter>("_out2.txt");
     auto sw = std::make_unique<writers::stream_writer>("_out1.txt");

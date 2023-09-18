@@ -83,10 +83,24 @@ assignment/CMakeFiles/assignment.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assignment.dir/main.cpp.s"
 	cd /mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc/assignment && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/marij/CLionProjects/APCWeek2/assignment/main.cpp -o CMakeFiles/assignment.dir/main.cpp.s
 
+assignment/CMakeFiles/assignment.dir/include/decorators/logger_decorator.cpp.o: assignment/CMakeFiles/assignment.dir/flags.make
+assignment/CMakeFiles/assignment.dir/include/decorators/logger_decorator.cpp.o: ../assignment/include/decorators/logger_decorator.cpp
+assignment/CMakeFiles/assignment.dir/include/decorators/logger_decorator.cpp.o: assignment/CMakeFiles/assignment.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object assignment/CMakeFiles/assignment.dir/include/decorators/logger_decorator.cpp.o"
+	cd /mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc/assignment && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT assignment/CMakeFiles/assignment.dir/include/decorators/logger_decorator.cpp.o -MF CMakeFiles/assignment.dir/include/decorators/logger_decorator.cpp.o.d -o CMakeFiles/assignment.dir/include/decorators/logger_decorator.cpp.o -c /mnt/c/Users/marij/CLionProjects/APCWeek2/assignment/include/decorators/logger_decorator.cpp
+
+assignment/CMakeFiles/assignment.dir/include/decorators/logger_decorator.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/assignment.dir/include/decorators/logger_decorator.cpp.i"
+	cd /mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc/assignment && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /mnt/c/Users/marij/CLionProjects/APCWeek2/assignment/include/decorators/logger_decorator.cpp > CMakeFiles/assignment.dir/include/decorators/logger_decorator.cpp.i
+
+assignment/CMakeFiles/assignment.dir/include/decorators/logger_decorator.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/assignment.dir/include/decorators/logger_decorator.cpp.s"
+	cd /mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc/assignment && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /mnt/c/Users/marij/CLionProjects/APCWeek2/assignment/include/decorators/logger_decorator.cpp -o CMakeFiles/assignment.dir/include/decorators/logger_decorator.cpp.s
+
 assignment/CMakeFiles/assignment.dir/src/console_writer.cpp.o: assignment/CMakeFiles/assignment.dir/flags.make
 assignment/CMakeFiles/assignment.dir/src/console_writer.cpp.o: ../assignment/src/console_writer.cpp
 assignment/CMakeFiles/assignment.dir/src/console_writer.cpp.o: assignment/CMakeFiles/assignment.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object assignment/CMakeFiles/assignment.dir/src/console_writer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object assignment/CMakeFiles/assignment.dir/src/console_writer.cpp.o"
 	cd /mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc/assignment && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT assignment/CMakeFiles/assignment.dir/src/console_writer.cpp.o -MF CMakeFiles/assignment.dir/src/console_writer.cpp.o.d -o CMakeFiles/assignment.dir/src/console_writer.cpp.o -c /mnt/c/Users/marij/CLionProjects/APCWeek2/assignment/src/console_writer.cpp
 
 assignment/CMakeFiles/assignment.dir/src/console_writer.cpp.i: cmake_force
@@ -100,7 +114,7 @@ assignment/CMakeFiles/assignment.dir/src/console_writer.cpp.s: cmake_force
 assignment/CMakeFiles/assignment.dir/src/file_writer_adapter.cpp.o: assignment/CMakeFiles/assignment.dir/flags.make
 assignment/CMakeFiles/assignment.dir/src/file_writer_adapter.cpp.o: ../assignment/src/file_writer_adapter.cpp
 assignment/CMakeFiles/assignment.dir/src/file_writer_adapter.cpp.o: assignment/CMakeFiles/assignment.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object assignment/CMakeFiles/assignment.dir/src/file_writer_adapter.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object assignment/CMakeFiles/assignment.dir/src/file_writer_adapter.cpp.o"
 	cd /mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc/assignment && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT assignment/CMakeFiles/assignment.dir/src/file_writer_adapter.cpp.o -MF CMakeFiles/assignment.dir/src/file_writer_adapter.cpp.o.d -o CMakeFiles/assignment.dir/src/file_writer_adapter.cpp.o -c /mnt/c/Users/marij/CLionProjects/APCWeek2/assignment/src/file_writer_adapter.cpp
 
 assignment/CMakeFiles/assignment.dir/src/file_writer_adapter.cpp.i: cmake_force
@@ -114,7 +128,7 @@ assignment/CMakeFiles/assignment.dir/src/file_writer_adapter.cpp.s: cmake_force
 assignment/CMakeFiles/assignment.dir/src/logger.cpp.o: assignment/CMakeFiles/assignment.dir/flags.make
 assignment/CMakeFiles/assignment.dir/src/logger.cpp.o: ../assignment/src/logger.cpp
 assignment/CMakeFiles/assignment.dir/src/logger.cpp.o: assignment/CMakeFiles/assignment.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object assignment/CMakeFiles/assignment.dir/src/logger.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object assignment/CMakeFiles/assignment.dir/src/logger.cpp.o"
 	cd /mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc/assignment && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT assignment/CMakeFiles/assignment.dir/src/logger.cpp.o -MF CMakeFiles/assignment.dir/src/logger.cpp.o.d -o CMakeFiles/assignment.dir/src/logger.cpp.o -c /mnt/c/Users/marij/CLionProjects/APCWeek2/assignment/src/logger.cpp
 
 assignment/CMakeFiles/assignment.dir/src/logger.cpp.i: cmake_force
@@ -128,7 +142,7 @@ assignment/CMakeFiles/assignment.dir/src/logger.cpp.s: cmake_force
 assignment/CMakeFiles/assignment.dir/src/multi_writer.cpp.o: assignment/CMakeFiles/assignment.dir/flags.make
 assignment/CMakeFiles/assignment.dir/src/multi_writer.cpp.o: ../assignment/src/multi_writer.cpp
 assignment/CMakeFiles/assignment.dir/src/multi_writer.cpp.o: assignment/CMakeFiles/assignment.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object assignment/CMakeFiles/assignment.dir/src/multi_writer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object assignment/CMakeFiles/assignment.dir/src/multi_writer.cpp.o"
 	cd /mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc/assignment && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT assignment/CMakeFiles/assignment.dir/src/multi_writer.cpp.o -MF CMakeFiles/assignment.dir/src/multi_writer.cpp.o.d -o CMakeFiles/assignment.dir/src/multi_writer.cpp.o -c /mnt/c/Users/marij/CLionProjects/APCWeek2/assignment/src/multi_writer.cpp
 
 assignment/CMakeFiles/assignment.dir/src/multi_writer.cpp.i: cmake_force
@@ -142,7 +156,7 @@ assignment/CMakeFiles/assignment.dir/src/multi_writer.cpp.s: cmake_force
 assignment/CMakeFiles/assignment.dir/src/stream_writer.cpp.o: assignment/CMakeFiles/assignment.dir/flags.make
 assignment/CMakeFiles/assignment.dir/src/stream_writer.cpp.o: ../assignment/src/stream_writer.cpp
 assignment/CMakeFiles/assignment.dir/src/stream_writer.cpp.o: assignment/CMakeFiles/assignment.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object assignment/CMakeFiles/assignment.dir/src/stream_writer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object assignment/CMakeFiles/assignment.dir/src/stream_writer.cpp.o"
 	cd /mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc/assignment && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT assignment/CMakeFiles/assignment.dir/src/stream_writer.cpp.o -MF CMakeFiles/assignment.dir/src/stream_writer.cpp.o.d -o CMakeFiles/assignment.dir/src/stream_writer.cpp.o -c /mnt/c/Users/marij/CLionProjects/APCWeek2/assignment/src/stream_writer.cpp
 
 assignment/CMakeFiles/assignment.dir/src/stream_writer.cpp.i: cmake_force
@@ -156,7 +170,7 @@ assignment/CMakeFiles/assignment.dir/src/stream_writer.cpp.s: cmake_force
 assignment/CMakeFiles/assignment.dir/src/decorators/timestamp_decorator.cpp.o: assignment/CMakeFiles/assignment.dir/flags.make
 assignment/CMakeFiles/assignment.dir/src/decorators/timestamp_decorator.cpp.o: ../assignment/src/decorators/timestamp_decorator.cpp
 assignment/CMakeFiles/assignment.dir/src/decorators/timestamp_decorator.cpp.o: assignment/CMakeFiles/assignment.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object assignment/CMakeFiles/assignment.dir/src/decorators/timestamp_decorator.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object assignment/CMakeFiles/assignment.dir/src/decorators/timestamp_decorator.cpp.o"
 	cd /mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc/assignment && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT assignment/CMakeFiles/assignment.dir/src/decorators/timestamp_decorator.cpp.o -MF CMakeFiles/assignment.dir/src/decorators/timestamp_decorator.cpp.o.d -o CMakeFiles/assignment.dir/src/decorators/timestamp_decorator.cpp.o -c /mnt/c/Users/marij/CLionProjects/APCWeek2/assignment/src/decorators/timestamp_decorator.cpp
 
 assignment/CMakeFiles/assignment.dir/src/decorators/timestamp_decorator.cpp.i: cmake_force
@@ -170,7 +184,7 @@ assignment/CMakeFiles/assignment.dir/src/decorators/timestamp_decorator.cpp.s: c
 assignment/CMakeFiles/assignment.dir/program.cpp.o: assignment/CMakeFiles/assignment.dir/flags.make
 assignment/CMakeFiles/assignment.dir/program.cpp.o: ../assignment/program.cpp
 assignment/CMakeFiles/assignment.dir/program.cpp.o: assignment/CMakeFiles/assignment.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object assignment/CMakeFiles/assignment.dir/program.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object assignment/CMakeFiles/assignment.dir/program.cpp.o"
 	cd /mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc/assignment && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT assignment/CMakeFiles/assignment.dir/program.cpp.o -MF CMakeFiles/assignment.dir/program.cpp.o.d -o CMakeFiles/assignment.dir/program.cpp.o -c /mnt/c/Users/marij/CLionProjects/APCWeek2/assignment/program.cpp
 
 assignment/CMakeFiles/assignment.dir/program.cpp.i: cmake_force
@@ -184,6 +198,7 @@ assignment/CMakeFiles/assignment.dir/program.cpp.s: cmake_force
 # Object files for target assignment
 assignment_OBJECTS = \
 "CMakeFiles/assignment.dir/main.cpp.o" \
+"CMakeFiles/assignment.dir/include/decorators/logger_decorator.cpp.o" \
 "CMakeFiles/assignment.dir/src/console_writer.cpp.o" \
 "CMakeFiles/assignment.dir/src/file_writer_adapter.cpp.o" \
 "CMakeFiles/assignment.dir/src/logger.cpp.o" \
@@ -196,6 +211,7 @@ assignment_OBJECTS = \
 assignment_EXTERNAL_OBJECTS =
 
 assignment/assignment: assignment/CMakeFiles/assignment.dir/main.cpp.o
+assignment/assignment: assignment/CMakeFiles/assignment.dir/include/decorators/logger_decorator.cpp.o
 assignment/assignment: assignment/CMakeFiles/assignment.dir/src/console_writer.cpp.o
 assignment/assignment: assignment/CMakeFiles/assignment.dir/src/file_writer_adapter.cpp.o
 assignment/assignment: assignment/CMakeFiles/assignment.dir/src/logger.cpp.o
@@ -206,7 +222,7 @@ assignment/assignment: assignment/CMakeFiles/assignment.dir/program.cpp.o
 assignment/assignment: assignment/CMakeFiles/assignment.dir/build.make
 assignment/assignment: assignment/clib/libclogger.a
 assignment/assignment: assignment/CMakeFiles/assignment.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable assignment"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable assignment"
 	cd /mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc/assignment && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/assignment.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

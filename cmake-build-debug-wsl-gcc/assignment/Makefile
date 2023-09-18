@@ -130,6 +130,30 @@ assignment/fast:
 	cd /mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc && $(MAKE) $(MAKESILENT) -f assignment/CMakeFiles/assignment.dir/build.make assignment/CMakeFiles/assignment.dir/build
 .PHONY : assignment/fast
 
+include/decorators/logger_decorator.o: include/decorators/logger_decorator.cpp.o
+.PHONY : include/decorators/logger_decorator.o
+
+# target to build an object file
+include/decorators/logger_decorator.cpp.o:
+	cd /mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc && $(MAKE) $(MAKESILENT) -f assignment/CMakeFiles/assignment.dir/build.make assignment/CMakeFiles/assignment.dir/include/decorators/logger_decorator.cpp.o
+.PHONY : include/decorators/logger_decorator.cpp.o
+
+include/decorators/logger_decorator.i: include/decorators/logger_decorator.cpp.i
+.PHONY : include/decorators/logger_decorator.i
+
+# target to preprocess a source file
+include/decorators/logger_decorator.cpp.i:
+	cd /mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc && $(MAKE) $(MAKESILENT) -f assignment/CMakeFiles/assignment.dir/build.make assignment/CMakeFiles/assignment.dir/include/decorators/logger_decorator.cpp.i
+.PHONY : include/decorators/logger_decorator.cpp.i
+
+include/decorators/logger_decorator.s: include/decorators/logger_decorator.cpp.s
+.PHONY : include/decorators/logger_decorator.s
+
+# target to generate assembly for a file
+include/decorators/logger_decorator.cpp.s:
+	cd /mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc && $(MAKE) $(MAKESILENT) -f assignment/CMakeFiles/assignment.dir/build.make assignment/CMakeFiles/assignment.dir/include/decorators/logger_decorator.cpp.s
+.PHONY : include/decorators/logger_decorator.cpp.s
+
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -331,6 +355,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... assignment"
+	@echo "... include/decorators/logger_decorator.o"
+	@echo "... include/decorators/logger_decorator.i"
+	@echo "... include/decorators/logger_decorator.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

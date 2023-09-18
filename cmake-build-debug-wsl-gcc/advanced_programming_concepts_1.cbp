@@ -148,6 +148,12 @@
 		<Unit filename="/mnt/c/Users/marij/CLionProjects/APCWeek2/assignment/clib/logger.h">
 			<Option target="clogger"/>
 		</Unit>
+		<Unit filename="/mnt/c/Users/marij/CLionProjects/APCWeek2/assignment/include/decorators/logger_decorator.cpp">
+			<Option target="assignment"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/marij/CLionProjects/APCWeek2/assignment/include/decorators/logger_decorator.h">
+			<Option target="assignment"/>
+		</Unit>
 		<Unit filename="/mnt/c/Users/marij/CLionProjects/APCWeek2/assignment/main.cpp">
 			<Option target="assignment"/>
 		</Unit>

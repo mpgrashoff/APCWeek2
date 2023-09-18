@@ -8,15 +8,15 @@
 #include <string>
 #include <memory>
 #include "ilogger.h"
+#include "logger_decorator.h"
 
 namespace lib::decorators {
 
-class timestamp_decorator: public loggers::ilogger {
+class timestamp_decorator: public decorators::logger_decorator {
 public:
-    explicit timestamp_decorator(std::unique_ptr<loggers::ilogger> inner) noexcept;
     virtual void log(std::string_view msg) const override;
-private:
-    std::unique_ptr<loggers::ilogger> m_inner;
+
+    using  logger_decorator::logger_decorator;
 };
 }
 
