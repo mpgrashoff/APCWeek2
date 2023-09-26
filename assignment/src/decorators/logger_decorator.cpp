@@ -10,6 +10,4 @@ void lib::decorators::logger_decorator::log(std::string_view msg) const
 
 lib::decorators::logger_decorator::logger_decorator(std::unique_ptr<loggers::ilogger> inner) :
     m_internal_logger{std::move(inner)}
-{
-
-}
+{}

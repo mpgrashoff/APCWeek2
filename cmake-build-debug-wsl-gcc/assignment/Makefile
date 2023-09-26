@@ -130,30 +130,6 @@ assignment/fast:
 	cd /mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc && $(MAKE) $(MAKESILENT) -f assignment/CMakeFiles/assignment.dir/build.make assignment/CMakeFiles/assignment.dir/build
 .PHONY : assignment/fast
 
-include/decorators/logger_decorator.o: include/decorators/logger_decorator.cpp.o
-.PHONY : include/decorators/logger_decorator.o
-
-# target to build an object file
-include/decorators/logger_decorator.cpp.o:
-	cd /mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc && $(MAKE) $(MAKESILENT) -f assignment/CMakeFiles/assignment.dir/build.make assignment/CMakeFiles/assignment.dir/include/decorators/logger_decorator.cpp.o
-.PHONY : include/decorators/logger_decorator.cpp.o
-
-include/decorators/logger_decorator.i: include/decorators/logger_decorator.cpp.i
-.PHONY : include/decorators/logger_decorator.i
-
-# target to preprocess a source file
-include/decorators/logger_decorator.cpp.i:
-	cd /mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc && $(MAKE) $(MAKESILENT) -f assignment/CMakeFiles/assignment.dir/build.make assignment/CMakeFiles/assignment.dir/include/decorators/logger_decorator.cpp.i
-.PHONY : include/decorators/logger_decorator.cpp.i
-
-include/decorators/logger_decorator.s: include/decorators/logger_decorator.cpp.s
-.PHONY : include/decorators/logger_decorator.s
-
-# target to generate assembly for a file
-include/decorators/logger_decorator.cpp.s:
-	cd /mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc && $(MAKE) $(MAKESILENT) -f assignment/CMakeFiles/assignment.dir/build.make assignment/CMakeFiles/assignment.dir/include/decorators/logger_decorator.cpp.s
-.PHONY : include/decorators/logger_decorator.cpp.s
-
 main.o: main.cpp.o
 .PHONY : main.o
 
@@ -225,6 +201,54 @@ src/console_writer.s: src/console_writer.cpp.s
 src/console_writer.cpp.s:
 	cd /mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc && $(MAKE) $(MAKESILENT) -f assignment/CMakeFiles/assignment.dir/build.make assignment/CMakeFiles/assignment.dir/src/console_writer.cpp.s
 .PHONY : src/console_writer.cpp.s
+
+src/decorators/logger_decorator.o: src/decorators/logger_decorator.cpp.o
+.PHONY : src/decorators/logger_decorator.o
+
+# target to build an object file
+src/decorators/logger_decorator.cpp.o:
+	cd /mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc && $(MAKE) $(MAKESILENT) -f assignment/CMakeFiles/assignment.dir/build.make assignment/CMakeFiles/assignment.dir/src/decorators/logger_decorator.cpp.o
+.PHONY : src/decorators/logger_decorator.cpp.o
+
+src/decorators/logger_decorator.i: src/decorators/logger_decorator.cpp.i
+.PHONY : src/decorators/logger_decorator.i
+
+# target to preprocess a source file
+src/decorators/logger_decorator.cpp.i:
+	cd /mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc && $(MAKE) $(MAKESILENT) -f assignment/CMakeFiles/assignment.dir/build.make assignment/CMakeFiles/assignment.dir/src/decorators/logger_decorator.cpp.i
+.PHONY : src/decorators/logger_decorator.cpp.i
+
+src/decorators/logger_decorator.s: src/decorators/logger_decorator.cpp.s
+.PHONY : src/decorators/logger_decorator.s
+
+# target to generate assembly for a file
+src/decorators/logger_decorator.cpp.s:
+	cd /mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc && $(MAKE) $(MAKESILENT) -f assignment/CMakeFiles/assignment.dir/build.make assignment/CMakeFiles/assignment.dir/src/decorators/logger_decorator.cpp.s
+.PHONY : src/decorators/logger_decorator.cpp.s
+
+src/decorators/runningtime_decorator.o: src/decorators/runningtime_decorator.cpp.o
+.PHONY : src/decorators/runningtime_decorator.o
+
+# target to build an object file
+src/decorators/runningtime_decorator.cpp.o:
+	cd /mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc && $(MAKE) $(MAKESILENT) -f assignment/CMakeFiles/assignment.dir/build.make assignment/CMakeFiles/assignment.dir/src/decorators/runningtime_decorator.cpp.o
+.PHONY : src/decorators/runningtime_decorator.cpp.o
+
+src/decorators/runningtime_decorator.i: src/decorators/runningtime_decorator.cpp.i
+.PHONY : src/decorators/runningtime_decorator.i
+
+# target to preprocess a source file
+src/decorators/runningtime_decorator.cpp.i:
+	cd /mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc && $(MAKE) $(MAKESILENT) -f assignment/CMakeFiles/assignment.dir/build.make assignment/CMakeFiles/assignment.dir/src/decorators/runningtime_decorator.cpp.i
+.PHONY : src/decorators/runningtime_decorator.cpp.i
+
+src/decorators/runningtime_decorator.s: src/decorators/runningtime_decorator.cpp.s
+.PHONY : src/decorators/runningtime_decorator.s
+
+# target to generate assembly for a file
+src/decorators/runningtime_decorator.cpp.s:
+	cd /mnt/c/Users/marij/CLionProjects/APCWeek2/cmake-build-debug-wsl-gcc && $(MAKE) $(MAKESILENT) -f assignment/CMakeFiles/assignment.dir/build.make assignment/CMakeFiles/assignment.dir/src/decorators/runningtime_decorator.cpp.s
+.PHONY : src/decorators/runningtime_decorator.cpp.s
 
 src/decorators/timestamp_decorator.o: src/decorators/timestamp_decorator.cpp.o
 .PHONY : src/decorators/timestamp_decorator.o
@@ -355,9 +379,6 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... assignment"
-	@echo "... include/decorators/logger_decorator.o"
-	@echo "... include/decorators/logger_decorator.i"
-	@echo "... include/decorators/logger_decorator.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
@@ -367,6 +388,12 @@ help:
 	@echo "... src/console_writer.o"
 	@echo "... src/console_writer.i"
 	@echo "... src/console_writer.s"
+	@echo "... src/decorators/logger_decorator.o"
+	@echo "... src/decorators/logger_decorator.i"
+	@echo "... src/decorators/logger_decorator.s"
+	@echo "... src/decorators/runningtime_decorator.o"
+	@echo "... src/decorators/runningtime_decorator.i"
+	@echo "... src/decorators/runningtime_decorator.s"
 	@echo "... src/decorators/timestamp_decorator.o"
 	@echo "... src/decorators/timestamp_decorator.i"
 	@echo "... src/decorators/timestamp_decorator.s"

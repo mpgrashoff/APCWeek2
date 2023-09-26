@@ -148,10 +148,10 @@
 		<Unit filename="/mnt/c/Users/marij/CLionProjects/APCWeek2/assignment/clib/logger.h">
 			<Option target="clogger"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/marij/CLionProjects/APCWeek2/assignment/include/decorators/logger_decorator.cpp">
+		<Unit filename="/mnt/c/Users/marij/CLionProjects/APCWeek2/assignment/include/decorators/logger_decorator.h">
 			<Option target="assignment"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/marij/CLionProjects/APCWeek2/assignment/include/decorators/logger_decorator.h">
+		<Unit filename="/mnt/c/Users/marij/CLionProjects/APCWeek2/assignment/include/decorators/runningtime_decorator.h">
 			<Option target="assignment"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/marij/CLionProjects/APCWeek2/assignment/main.cpp">
@@ -161,6 +161,12 @@
 			<Option target="assignment"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/marij/CLionProjects/APCWeek2/assignment/src/console_writer.cpp">
+			<Option target="assignment"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/marij/CLionProjects/APCWeek2/assignment/src/decorators/logger_decorator.cpp">
+			<Option target="assignment"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/marij/CLionProjects/APCWeek2/assignment/src/decorators/runningtime_decorator.cpp">
 			<Option target="assignment"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/marij/CLionProjects/APCWeek2/assignment/src/decorators/timestamp_decorator.cpp">

@@ -223,20 +223,21 @@ assignment/CMakeFiles/assignment.dir/main.cpp.o: \
  /usr/include/c++/12/bits/erase_if.h \
  /mnt/c/Users/marij/CLionProjects/APCWeek2/assignment/include/decorators/timestamp_decorator.h \
  /mnt/c/Users/marij/CLionProjects/APCWeek2/assignment/include/ilogger.h \
+ /mnt/c/Users/marij/CLionProjects/APCWeek2/assignment/include/decorators/logger_decorator.h \
  /mnt/c/Users/marij/CLionProjects/APCWeek2/assignment/clib/logger.h \
  /usr/lib/gcc/x86_64-linux-gnu/12/include/stdbool.h \
  /mnt/c/Users/marij/CLionProjects/APCWeek2/assignment/clib/clogger_adapter.h \
  /mnt/c/Users/marij/CLionProjects/APCWeek2/assignment/clib/../include/ilogger.h \
  /mnt/c/Users/marij/CLionProjects/APCWeek2/assignment/clib/../clib/logger.h \
+ /mnt/c/Users/marij/CLionProjects/APCWeek2/assignment/include/decorators/runningtime_decorator.h \
+ /usr/include/c++/12/chrono /usr/include/c++/12/bits/chrono.h \
+ /usr/include/c++/12/ratio /usr/include/c++/12/limits \
+ /usr/include/c++/12/ctime /usr/include/c++/12/bits/parse_numbers.h \
+ /usr/include/c++/12/sstream /usr/include/c++/12/bits/sstream.tcc \
  /usr/include/c++/12/thread /usr/include/c++/12/stop_token \
  /usr/include/c++/12/atomic /usr/include/c++/12/bits/std_thread.h \
  /usr/include/c++/12/semaphore /usr/include/c++/12/bits/semaphore_base.h \
- /usr/include/c++/12/bits/chrono.h /usr/include/c++/12/ratio \
- /usr/include/c++/12/limits /usr/include/c++/12/ctime \
- /usr/include/c++/12/bits/parse_numbers.h \
  /usr/include/c++/12/bits/atomic_timed_wait.h \
  /usr/include/c++/12/bits/this_thread_sleep.h \
  /usr/include/x86_64-linux-gnu/sys/time.h /usr/include/semaphore.h \
- /usr/include/x86_64-linux-gnu/bits/semaphore.h \
- /usr/include/c++/12/chrono /usr/include/c++/12/sstream \
- /usr/include/c++/12/bits/sstream.tcc
+ /usr/include/x86_64-linux-gnu/bits/semaphore.h

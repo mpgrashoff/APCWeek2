@@ -204,6 +204,7 @@ assignment/CMakeFiles/assignment.dir/src/decorators/timestamp_decorator.cpp.o: \
  /usr/include/c++/12/pstl/glue_memory_defs.h \
  /usr/include/c++/12/pstl/execution_defs.h \
  /mnt/c/Users/marij/CLionProjects/APCWeek2/assignment/include/ilogger.h \
+ /mnt/c/Users/marij/CLionProjects/APCWeek2/assignment/include/decorators/logger_decorator.h \
  /usr/include/c++/12/ctime /usr/include/c++/12/sstream \
  /usr/include/c++/12/istream /usr/include/c++/12/bits/istream.tcc \
  /usr/include/c++/12/bits/sstream.tcc /usr/include/c++/12/iomanip \

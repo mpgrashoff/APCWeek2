@@ -12,6 +12,7 @@
 
 #include "clib/logger.h"
 #include "clogger_adapter.h"
+#include "decorators/runningtime_decorator.h"
 #include <iostream>
 #include <memory>
 #include <thread>
@@ -57,7 +58,7 @@ int main(){
 
     auto log = std::make_unique<lib::logger>( std::move(mw) );
 
-    auto decorated = std::make_unique<lib::decorators::timestamp_decorator>(std::move(log));
+    auto decorated = std::make_unique<lib::decorators::runningtime_decorator>(std::move(log));
     program prog{ std::move(decorated) };
     prog.run();
 

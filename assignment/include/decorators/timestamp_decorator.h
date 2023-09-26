@@ -15,7 +15,6 @@ namespace lib::decorators {
 class timestamp_decorator: public decorators::logger_decorator {
 public:
     virtual void log(std::string_view msg) const override;
-
     using  logger_decorator::logger_decorator;
 };
 }
